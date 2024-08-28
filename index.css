@@ -1,0 +1,82 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  
+}
+
+
+
+div{
+  display: grid;
+  width: 300px;
+  gap: 8px;
+  
+}
+button{
+  width: 70px;
+  height: 70px;
+}
+
+#numbers{
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
+}
+
+#numeros{
+  width: 300px;
+  height: 80px;
+  overflow: hidden;
+  
+}
+
+button:hover{
+  background-color: #757575;
+  transform: scale(0.95);
+}
+
+button{
+  border: none;
+  background-color:#424242;
+  color: grey;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 70px;
+}
+
+input{
+  border: none;
+  background-color: black;
+  color: grey;
+  display: flex;
+  font-size: 40px;
+  padding-left: 25px;
+  
+}
+
+#calculadora{
+  background-color: black;
+  width: 330px;
+  justify-items: center;
+  align-items: center;
+  height: 550px;
+  border-radius: 10px;
+  position: relative;
+  top: 100px;
+  box-shadow: -0px -0px 20px purple;
+  
+}
+
+.operation{
+  color: purple;
+}
+
+#igual{
+  background-color: purple;
+  color: white;
+}
+
+
+
